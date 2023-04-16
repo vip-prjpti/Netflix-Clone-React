@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     padding: 10px;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,8 +18,8 @@
 
 .nav__logo{
     position: fixed;
-    left: 20px;
-    width: 80px;
+    left: 50px;
+    width: 100px;
     object-fit: contain;
 }
 
@@ -27,5 +27,5 @@
     width: 30px;
     object-fit: contain;
     position: fixed;
-    right: 20px;
+    right: 50px;
 }

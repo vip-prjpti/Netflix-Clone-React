@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "../axios";
+import axios from "../../axios";
 import "./row.css";
 import Youtube from "react-youtube";
 import movieTrailer from "movie-trailer";
@@ -64,7 +64,6 @@ const Row = (props) => {
               }`}
               alt={movie.name}
             />
-            {/* <Vote movie = {movie}/> */}
             <p className="movie__votes">{movie.vote_average}</p>
             <p>{movie.title}</p>
             </div>

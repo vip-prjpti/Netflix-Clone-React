@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./nav.css";
+import Navbar from "./Navbar";
+
 
 const Nav = () => {
   const [show, handleShow] = useState(false);
@@ -14,7 +16,7 @@ const Nav = () => {
     });
 
     return () => {
-      window.removeEventListener("scroll",handleShow);
+      window.removeEventListener("scroll", handleShow);
     };
   }, []);
 
@@ -22,9 +24,11 @@ const Nav = () => {
     <div className={`nav ${show && "nav__black"}`}>
       <img
         className="nav__logo"
-        src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+        src="https://www.freepnglogos.com/uploads/netflix-logo-history-32.png"
         alt="Netflix Logo"
       />
+
+      <Navbar />
 
       <img
         className="nav__avatar"

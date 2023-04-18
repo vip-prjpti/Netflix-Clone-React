@@ -10,10 +10,13 @@ const SearchMovie = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`);
-    const data = await response.json();
+    
+      const response = await fetch(`${API_URL}&s=${title}`);
+      const data = await response.json();
+      setMovies(data.Search)
+      console.log(data);
+   
 
-    setMovies(data.Search);
   };
 
   // useEffect(() => {
@@ -36,8 +39,8 @@ const SearchMovie = () => {
 
       {movies.length > 0 ? (
         <div className="container">
-          {movies.map((movie) => (
-            <MovieCard movie={movie} />
+          {movies.map((movie,id) => (
+            <MovieCard movie={movie} key={id} />
           ))}
         </div>
       ) : (

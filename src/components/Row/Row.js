@@ -64,7 +64,7 @@ const Row = (props) => {
               }`}
               alt={movie.name}
             />
-            <p className="movie__votes">{movie.vote_average}</p>
+            <p className="movie__votes">{(movie.vote_average).toFixed(1)}</p>
             <p>{movie.title}</p>
             </div>
         ))}

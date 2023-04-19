@@ -58,3 +58,14 @@
     position: fixed;
     right: 50px;
 }
+
+@media screen and (max-width: 380px){
+    .search__icon{
+        margin-left: 10px;
+        font-size: 1.2rem;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+    
+}

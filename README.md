@@ -11,6 +11,10 @@
 - React-youtube for trailer pop-ups
 - Omdb API and Tmdb API for fetching dynamic data
 
+![Screenshot (23)](https://user-images.githubusercontent.com/68685595/233038251-cd65a70a-c0d8-479e-a238-b29f1c71c85d.png)
+
+![Screenshot (21)](https://user-images.githubusercontent.com/68685595/233038213-9597bde2-fc6f-4774-bece-07f5a91b2c8d.png)
+
 
 # Getting Started with Create React App
 

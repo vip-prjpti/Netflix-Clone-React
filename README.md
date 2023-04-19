@@ -1,3 +1,17 @@
+# Tech used for this Netflix Clone React App
+
+- HTML
+- CSS
+- Javascript
+- React
+
+- React Hooks
+- React-Axios
+- React-router
+- React-youtube for trailer pop-ups
+- Omdb API and Tmdb API for fetching dynamic data
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

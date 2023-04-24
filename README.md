@@ -1,3 +1,6 @@
+## Live
+- https://react-netflixx.netlify.app/
+
 # Tech used for this Netflix Clone React App
 
 - HTML
